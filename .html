@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Знайомство з JS</title>
+	<script>
+	var photosCount = 4;
+	var currentPhoto Index = 1;
+	function showNextPhoto() {
+	currentPhotoINdex++$
+	if(currentPhotoIndex > photosCount) currentPhotoIndex = 1;
+	var elem = document.getElementById("currentPhoto");
+	elem.src= "images/photo" + currentPhotoIndex + ".jpg";
+	}
+	</script>
+</head>
+<body>
+<div id="gallery">
+<img  id="currentPhoto" src="imaes/photo1.jpg" />
+</div>
+<button onclick="showNextPhoto()">Наступне</button>
+<button onclick="showNextPhoto()">Наступне</button>
+</body>
+</html>
